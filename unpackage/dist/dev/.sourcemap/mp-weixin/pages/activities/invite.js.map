@@ -1,1 +1,0 @@
-{"version":3,"file":"invite.js","sources":["../../HBuilderX/HBuilderX.4.87.2025121004/HBuilderX/plugins/uniapp-cli-vite/uniPage:/cGFnZXMvYWN0aXZpdGllcy9pbnZpdGUudnVl"],"sourcesContent":["import MiniProgramPage from 'D:/Uniapp/奈雪/pages/activities/invite.vue'\nwx.createPage(MiniProgramPage)"],"names":["MiniProgramPage"],"mappings":";;;;;;;;;;;AACA,GAAG,WAAWA,SAAe;"}

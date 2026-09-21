@@ -1,1 +1,0 @@
-{"version":3,"file":"loading.js","sources":["../../HBuilderX/HBuilderX.4.87.2025121004/HBuilderX/plugins/uniapp-cli-vite/uniComponent:/RDovVW5pYXBwL-WliOmbqi9jb21wb25lbnRzL2xvYWRpbmcudnVl"],"sourcesContent":["import Component from 'D:/Uniapp/奈雪/components/loading.vue'\nwx.createComponent(Component)"],"names":["Component"],"mappings":";;;;;;;;;;;;AACA,GAAG,gBAAgBA,SAAS;"}

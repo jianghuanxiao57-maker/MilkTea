@@ -1,1 +1,0 @@
-<view><slot wx:if="{{a}}"/><view id="top" style="{{d}}" animation="{{e}}" bindtap="{{f}}" bindtouchstart="{{g}}" bindtouchmove="{{h}}"><trees wx:if="{{b}}" u-i="5a631880-0" bind:__l="__l" u-p="{{b}}"/><image wx:for="{{c}}" wx:for-item="item" wx:key="a" id="{{item.b}}" src="{{item.c}}" hidden bindload="{{item.d}}"/></view></view>
