@@ -1,0 +1,1 @@
+{"version":3,"file":"custom-points.js","sources":["api/custom-points.js"],"sourcesContent":["export default {\n\t\"soonExpiredPoints\": 0,\n\t\"totalPoints\": 487,\n\t\"expiredTime\": null,\n\t\"foreverPoints\": 0\n}\n"],"names":[],"mappings":";AAAA,MAAe,eAAA;AAAA,EACd,qBAAqB;AAAA,EACrB,eAAe;AAAA,EACf,eAAe;AAAA,EACf,iBAAiB;AAClB;;"}

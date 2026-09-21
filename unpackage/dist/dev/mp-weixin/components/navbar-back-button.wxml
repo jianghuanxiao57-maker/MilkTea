@@ -1,0 +1,1 @@
+<view class="position-absolute" style="{{'z-index:' + 99 + ';' + ('height:' + d) + ';' + ('top:' + e) + ';' + ('left:' + f)}}" bindtap="{{g}}"><image src="{{a}}" style="{{'height:' + b + ';' + ('width:' + c)}}"></image></view>

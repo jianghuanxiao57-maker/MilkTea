@@ -1,0 +1,212 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* uni-app 官方变量兼容 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+@font-face {
+  font-family: "iconfont";
+  src: url("//at.alicdn.com/t/font_1789197_z1gzlwq7idq.ttf?t=1589441233693") format("truetype");
+}
+.iconfont.data-v-7d24da0b {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.iconshoucang.data-v-7d24da0b:before {
+  content: "\e667";
+}
+.iconshoucangfill.data-v-7d24da0b:before {
+  content: "\e6c9";
+}
+.iconjifen.data-v-7d24da0b:before {
+  content: "\e642";
+}
+.iconradio-button-off.data-v-7d24da0b:before {
+  content: "\e688";
+}
+.iconradio-button-on.data-v-7d24da0b:before {
+  content: "\e689";
+}
+.iconhelp.data-v-7d24da0b:before {
+  content: "\e752";
+}
+.iconwxpay.data-v-7d24da0b:before {
+  content: "\e611";
+}
+.iconbalance.data-v-7d24da0b:before {
+  content: "\e619";
+}
+.iconadd-select.data-v-7d24da0b:before {
+  content: "\e7b0";
+}
+.iconsami-select.data-v-7d24da0b:before {
+  content: "\e7b1";
+}
+.iconmap.data-v-7d24da0b:before {
+  content: "\e758";
+}
+.iconsuccess.data-v-7d24da0b:before {
+  content: "\e767";
+}
+.iconsuccess-fill.data-v-7d24da0b:before {
+  content: "\e78d";
+}
+.iconiconset0136.data-v-7d24da0b:before {
+  content: "\e623";
+}
+.iconzan.data-v-7d24da0b:before {
+  content: "\e640";
+}
+.iconjifenqiandao.data-v-7d24da0b:before {
+  content: "\e6a6";
+}
+.iconshouyeshouye.data-v-7d24da0b:before {
+  content: "\e606";
+}
+.icondaohang.data-v-7d24da0b:before {
+  content: "\e641";
+}
+.iconwodelianxikefu.data-v-7d24da0b:before {
+  content: "\e671";
+}
+.iconwodexinyuan.data-v-7d24da0b:before {
+  content: "\e675";
+}
+.iconphone.data-v-7d24da0b:before {
+  content: "\e6dd";
+}
+.icondingdan.data-v-7d24da0b:before {
+  content: "\e645";
+}
+.iconliwu.data-v-7d24da0b:before {
+  content: "\e61c";
+}
+.iconyinpinyinliao.data-v-7d24da0b:before {
+  content: "\e60d";
+}
+.iconyinpin.data-v-7d24da0b:before {
+  content: "\e70b";
+}
+.iconwaimaixinxi.data-v-7d24da0b:before {
+  content: "\e685";
+}
+.iconico.data-v-7d24da0b:before {
+  content: "\e646";
+}
+.iconwode.data-v-7d24da0b:before {
+  content: "\e616";
+}
+.icongengduofuwu.data-v-7d24da0b:before {
+  content: "\e607";
+}
+.iconqucan.data-v-7d24da0b:before {
+  content: "\e625";
+}
+.iconyou.data-v-7d24da0b:before {
+  content: "\e618";
+}
+.iconshouhuodizhi.data-v-7d24da0b:before {
+  content: "\e666";
+}
+.iconshangcheng.data-v-7d24da0b:before {
+  content: "\e63b";
+}
+.iconadd.data-v-7d24da0b:before {
+  content: "\e742";
+}
+.iconarrow-right.data-v-7d24da0b:before {
+  content: "\e743";
+}
+.iconarrow-lift.data-v-7d24da0b:before {
+  content: "\e744";
+}
+.iconarrow-up.data-v-7d24da0b:before {
+  content: "\e745";
+}
+.iconclose.data-v-7d24da0b:before {
+  content: "\e747";
+}
+.iconleftbutton.data-v-7d24da0b:before {
+  content: "\e755";
+}
+.iconreduce.data-v-7d24da0b:before {
+  content: "\e75e";
+}
+.iconseleted.data-v-7d24da0b:before {
+  content: "\e763";
+}
+.iconRightbutton.data-v-7d24da0b:before {
+  content: "\e765";
+}
+.iconleftbutton-fill.data-v-7d24da0b:before {
+  content: "\e782";
+}
+.iconRightbutton-fill.data-v-7d24da0b:before {
+  content: "\e78a";
+}
+.iconarrow-down.data-v-7d24da0b:before {
+  content: "\e7b2";
+}
+.iconaixin1.data-v-7d24da0b:before {
+  content: "\e63c";
+}
+page.data-v-7d24da0b {
+  background-color: #FFFFFF;
+}
+.cell.data-v-7d24da0b {
+  padding: 30rpx;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.cell .content.data-v-7d24da0b {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  font-size: 28rpx;
+  color: #5A5B5C;
+}
+.cell .content .icon.data-v-7d24da0b {
+  width: 70rpx;
+  height: 70rpx;
+  margin-right: 10rpx;
+}
+.cell .navigator.data-v-7d24da0b {
+  width: 50rpx;
+  height: 50rpx;
+  position: relative;
+  margin-right: -10rpx;
+  flex-shrink: 0;
+}
+.cell.data-v-7d24da0b:after {
+  content: "";
+  position: absolute;
+  border-bottom: 2rpx solid #d9d9d9;
+  transform: scaleY(0.8);
+  bottom: 0;
+  right: 30rpx;
+  left: 30rpx;
+}
