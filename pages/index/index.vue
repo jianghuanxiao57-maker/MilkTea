@@ -128,8 +128,12 @@
 
 <script setup>
 	import {
-		ref
+		ref,
+		onMounted
 	} from 'vue';
+	import {
+		getUserApi
+	} from '@/api/index';
 
 	// 场馆设施数据
 	const facilities = ref([{
@@ -233,6 +237,32 @@
 	const switchBanner = (index) => {
 		currentBanner.value = index;
 	};
+
+
+	async function loadData() {
+		console.log(1111)
+		try {
+			const res = await getUserApi();
+			if (res && Array.isArray(res)) {
+				// 遍历后端返回的数据，映射到你的 coaches 结构上
+				coaches.value = res.map(item => {
+					return {
+						name: item.nickname, // 把昵称赋给名字
+						classes: 100, // 如果后端没返回上课数，可以给个默认值
+						avatar: item.avatarUrl // 把头像链接赋给 avatar
+					};
+				});
+			}
+			console.log('获取成功：', res);
+		} catch (error) {
+			console.error('获取失败：', error);
+		}
+	}
+
+	// 页面加载完成时自动执行
+	onMounted(() => {
+		loadData();
+	});
 
 	// 活动专区 Tab
 	const activityTabs = ref(['优惠卡项', '特色课程', '会员案例']);
